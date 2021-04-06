@@ -1,0 +1,62 @@
+/* Mobiles */
+
+@media (max-width: 767px) 
+{
+    
+    body 
+    {
+
+        grid-template-rows: 2% 4% 2% 1fr 2%;
+
+    }
+
+    .titulos 
+    {
+
+        font-size: 0.8em;
+        margin-left: 5%;
+
+    }    
+
+    .br70
+    {
+
+        width: 60%;
+
+    }
+
+    .titulo-conteudo 
+    {
+
+        font-size: 1em;
+
+    }
+
+    .img70 
+    {
+        
+        width: 100%;
+
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width: 1023px)
+{
+
+    body 
+    {
+
+        grid-template-rows: 2% 4% 2% 1fr 2%;
+
+    }
+
+    .titulos 
+    {
+
+        margin-left: 5%;
+    }
+
+}

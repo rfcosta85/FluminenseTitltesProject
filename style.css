@@ -16,13 +16,14 @@ header
     display: grid;
     justify-content: center; 
     align-items: center;  
-
+   
 }
 
 .escudo-fluminense 
 {
 
-    width: 75%;    
+    width: 75%; 
+       
 }
 
 nav 
@@ -64,20 +65,24 @@ main
 
 }
 
-.br70 
+.br70, .br84, .br10, .br12
 {
 
     min-height: 50vh;
     width: 50%;    
     margin: auto;
-    margin-top: 1%; 
-       
+    margin-top: 1%;
+    margin-bottom: 2.5%;    
 }
+
+
 
 .titulo-conteudo 
 {
 
     text-align: center;
+    color: #6E182D;
+    font-size: 1.5em;
 
 }
 
@@ -92,15 +97,9 @@ main
 {
 
     text-align: center; 
-    margin-top: 1.5%;   
-
-}
-
-.robertao 
-{
-
-    color: #6E182D;
-    font-size: 1.5em;
+    margin-top: 1.5%; 
+    font-size: 1em;
+    color: #01633D;
 
 }
 
@@ -129,7 +128,7 @@ body
     display: grid;
     min-height: 100vh;      
     grid-template-columns: 1fr;
-    grid-template-rows: 5% 11.5% 7% 1fr 5%;
+    grid-template-rows: 2% 3.5% 3% 1fr 2%;
     grid-template-areas:
     'cabecalho'
     'escudo'
