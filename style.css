@@ -4,8 +4,48 @@ header
 {
 
     grid-area: cabecalho;
-    background-color: #6E182D;    
+    background-color: #6E182D; 
+    display: flex;    
+    align-items: center;   
 
+}
+
+.header-title 
+{        
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.header 
+{
+    
+    color: white;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-left: 2%;
+
+}
+
+.icons1 
+{
+
+    margin-left: 70%;
+
+}
+
+.icons2 
+{
+
+    margin-left: 3%;
+}
+
+
+
+.fab 
+{
+        
+    color: white;   
+    
 }
 
 .escudo 
@@ -103,6 +143,14 @@ main
 
 }
 
+h2 
+{
+
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 footer 
 {
 
@@ -113,6 +161,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em;
 
 }
 
@@ -128,7 +177,7 @@ body
     display: grid;
     min-height: 100vh;      
     grid-template-columns: 1fr;
-    grid-template-rows: 2% 3.5% 3% 1fr 2%;
+    grid-template-rows: 1.5% 2.5% 1.8% 1fr 1%;
     grid-template-areas:
     'cabecalho'
     'escudo'
