@@ -105,7 +105,7 @@ main
 
 }
 
-.br70, .br84, .br10, .br12
+.br70, .br84, .br10, .br12, .cb07, .outros
 {
 
     min-height: 50vh;
@@ -136,7 +136,7 @@ main
 .conteudo 
 {
 
-    text-align: center; 
+    text-align: justify;     
     margin-top: 1.5%; 
     font-size: 1em;
     color: #01633D;
@@ -161,8 +161,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8em;
-
+    
 }
 
 footer a 
@@ -177,7 +176,7 @@ body
     display: grid;
     min-height: 100vh;      
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5% 2.5% 1.8% 1fr 1%;
+    grid-template-rows: 1% 1.6% 1.2% 1fr 0.7%;
     grid-template-areas:
     'cabecalho'
     'escudo'
