@@ -25,7 +25,7 @@
 
     }
 
-    .titulos 
+    .outros-smooth, .cb-smooth, .br-smooth
     {
 
         font-size: 0.8em;
@@ -43,8 +43,14 @@
     .titulo-conteudo 
     {
 
-        font-size: 1em;
+        font-size: 1em;       
 
+    }
+
+    .conteudo 
+    {
+        text-align: left;
+        font-size: 0.7em;
     }
 
     .img70 

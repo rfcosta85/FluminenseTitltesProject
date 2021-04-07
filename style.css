@@ -83,7 +83,7 @@ nav a
     text-decoration: none;
 }
 
-.titulos 
+.outros-smooth, .cb-smooth, .br-smooth
 {   
     
     margin-left: 2%;       
@@ -191,3 +191,4 @@ body
     'conteudo'
     'rodape';
 }
+
